@@ -73,6 +73,15 @@
 
 // media queries
 @include media-query($on-laptop) {
+  .rows {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    margin-top: 50px;
+    padding: 0;
+    list-style: none;
+  }
+
   .row__post {
       &:hover {
       * {
@@ -113,6 +122,14 @@
 }
 
 @include media-query($on-palm) {
+  .rows {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    margin-top: 50px;
+    padding: 0;
+    list-style: none;
+  }
   .row__cols,
   .row__post {
     margin: 0;
