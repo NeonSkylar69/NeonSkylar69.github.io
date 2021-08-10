@@ -72,13 +72,15 @@ $paginate-padding: 13px;
     max-width: 100%;
   }
 }
-  .post{
-    margin:auto;
-  }
+
 // media queries
 @include media-query($on-laptop) {
   .post {
     min-width: 500px;
-    width: 50%;
+    width: 70%;
+    margin:auto;
+  }
+  .post_body{
+    font-size: 50px;
   }
 }

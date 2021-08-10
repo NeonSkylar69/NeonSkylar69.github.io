@@ -1,12 +1,17 @@
-
-title: Your awesome title
+# The Website Basic Settings
+title: SecretLib
 header: SecretLib
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
- Jay Kuran
+desc: > 
+ a lonesome Lib
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
+post_title: Record
+post_date: TimeScale
+post_cat: Event
+
+prev-next: true
+favicon: "/assets/sample/ico.png"
 # Build settings
 theme: louie
 plugins:
