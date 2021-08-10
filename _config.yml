@@ -1,6 +1,6 @@
 # The Website Basic Settings
-title: SecretLib
-header: SecretLib
+title: ObservationLib
+header: BeingLib
 desc: > 
  a lonesome Lib
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -12,10 +12,12 @@ post_cat: Event
 
 prev-next: true
 favicon: "/assets/sample/ico.png"
+paginate: 15
 # Build settings
 theme: louie
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 # exclude:
 #   - .sass-cache/

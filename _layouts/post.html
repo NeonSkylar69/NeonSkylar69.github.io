@@ -27,7 +27,7 @@
         </div>
 
         {% if site.prev-next %}
-          <div class="post__paginate">
+          <div class="post__paginate" style="margin-bottom: 50%;">
             {% if page.previous.url %}
               <a class="post__paginate-left" href="{{ site.url }}{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a>
             {% endif %}
@@ -39,7 +39,6 @@
         {% endif %}
       </div>
 
-      {% include posts_list.html uid=page.id %}
     </div>
   </body>
 

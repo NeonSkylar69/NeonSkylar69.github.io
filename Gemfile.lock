@@ -224,6 +224,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (~> 217)
   jekyll-feed (~> 0.12)
+  jekyll-paginate (~> 1.1)
   louie (~> 0.1.4)
   tzinfo (~> 1.2)
   tzinfo-data

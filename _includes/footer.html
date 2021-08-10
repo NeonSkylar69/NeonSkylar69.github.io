@@ -1,0 +1,9 @@
+{% if site.data.social %}
+    <table class="bio__social">
+        <tr>
+         {% for item in site.data.social %}
+            <td><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></td>
+         {% endfor %}
+        </tr>
+    </ol>
+  {% endif %}

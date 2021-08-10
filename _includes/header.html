@@ -5,11 +5,4 @@
 	</a>
   </div>
   <div class="bio__desc">{{ site.desc }}</div>
-  {% if site.data.social %}
-    <ul class="bio__social">
-      {% for item in site.data.social %}
-        <li><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></li>
-      {% endfor %}
-    </ul>
-  {% endif %}
 </div>
