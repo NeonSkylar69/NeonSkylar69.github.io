@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Develop Diary Ⅰ"
-date:   2021-08-10 10:21:47 +0800
+title:  "Develop Diary "
+date:   2021-08-08 10:21
+category: Tech
 ---
 - Hexo的**doc**真的该***更新***了
 - GithubPages的依赖版本是真的**低**,和官方的Jekyll差了两个**大版本**(汗)
