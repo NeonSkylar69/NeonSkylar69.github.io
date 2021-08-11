@@ -18,6 +18,7 @@ theme: louie
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jemoji
 
 # exclude:
 #   - .sass-cache/
