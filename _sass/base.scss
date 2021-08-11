@@ -2,10 +2,13 @@ $on-palm:           600px !default;
 $on-laptop:         800px !default;
 
 // typography
-@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
-$inconsolata:       'Inconsolata', monospace;
-$font__size:        14px;
-$font__weight:      400;
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300&display=swap');
+$font_body:       'STIX Two Text','Noto Serif SC', serif;
+$font_title: 'Dancing Script', cursive;
+$font__size:        16px;
+$font__weight:      500;
 $font__line-height: 1.5;
 
 // colors
@@ -49,6 +52,18 @@ a {
     color: $color__black;
   }
 }
+.header{
+  font-family: $font_title;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size:80px;
+  a {
+  	text-decoration: none;
+  }
+  	&:hover {
+  		text-decoration: none;
+  	}
+}
 
 // layout
 html {
@@ -64,7 +79,7 @@ body {
   margin: 25px 0;
   padding: 0;
   background: $color__beige;
-  font-family: $inconsolata;
+  font-family: $font_body;
   font-size: $font__size;
   font-weight: $font__weight;
   line-height: $font__line-height;
@@ -90,7 +105,7 @@ body {
 
 @include media-query($on-laptop) {
   body {
-    margin: 50px 0 0;
+    margin: 30px 0 50px;
   }
   .container {
     margin: 0 120px;

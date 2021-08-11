@@ -1,28 +1,16 @@
 .bio {
-  max-width: 500px;
-  margin-bottom: 70px;
+  margin:50px 0 30px;
 }
-
-.bio__header {
-  margin-bottom: 20px;
-  font-weight: 700;
-  font-size:25px;
-  a {
-  	text-decoration: none;
-
-  	&:hover {
-  		text-decoration: none;
-  	}
-  }
-}
-
-  
 
 .bio_footer{
-  margin-top:50px;
- td{
+ span{
   border: 1px solid black;
+  margin-right: 10px;
+  padding: 5px;
  }
+  a{
+    text-decoration: none;
+  }
 
 }
 .bio__social {
@@ -32,61 +20,70 @@
   list-style: none;
 }
 .bio_img{
+  //margin-top: 70px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  height: 80%;
+  width: 100%;
+  img{
+  width:  420px;
+  height: 520px;
+  }
 }
 
 @media screen and (max-width:600px) {
-  
-  .bio_img img{
+ #img2,#img3,#img4{
+   display: none;
+ }
+  #img1{
+    position: relative;
+    opacity: 1;
     border-radius: 15px 50px 30px;
     height:520px;
     width:350px;
   }
+ 
 }
 
 @media screen and (min-width:600px) {
-  
-  .bio_img img{
-    position: absolute;
-    opacity: 40%;
-    border-radius: 15px 50px 30px;
-    height:520px;
-    width:350px;
+  #img2,#img3,#img4{
+    display: none;
+  }
+  #img1{
+    content: url(/assets/img5.jpg);
+    height:600px;
+    width:800px;
+    border-radius: 10px;
   }
 }
 
-@media screen and (min-width:768px) {
-  
-  .bio_img img{
-    position:absolute;
-    opacity: 40%;
-    border-radius:10px;
-    content:url(/assets/img2.jpg);
-    height:600px;
-    width:800px;
-  }
-}
 
 @media screen and (min-width:992px) {
-  .bio_img img{
-    position:absolute;
-    opacity: 40%;
-    border-radius:10px;
-    content:url(/assets/img2.jpg);
-    height:600px;
-    width:800px;
+  .bio_img{
+    img{
+      border-radius: 20px;
+    }
+  }
+    #img3,#img4{
+    display: block;
+  }
+  #img1{
+    display: none;
   }
 }
 
 @media screen and (min-width:1200px) {
-  .bio_img img{
-    position:absolute;
-    opacity: 40%;
-    border-radius:10px;
-    content:url(/assets/img2.jpg);
-    height:600px;
-    width:800px;
+  .bio_img{
+    img{
+      border-radius: 20px;
+    }
   }
+  #img1{
+    display: none;
+  }
+  #img2,#img3,#img4{
+    display: block;
+  }
+  
 }
 

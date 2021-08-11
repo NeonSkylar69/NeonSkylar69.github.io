@@ -2,14 +2,13 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include head.html %}
   <body>
-    <div class="bio_img">
-      <img src="/assets/img1.jpg" >
-    </div>
+    {% include img.html %}
      <div class="container">
         {% include header.html %}
+        {% include footer.html %}
         {% include PAGposts_list.html %}
         {{ content }}
-        {% include footer.html %}
+       
       </div>
   </body>
  
