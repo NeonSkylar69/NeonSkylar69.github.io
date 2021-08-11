@@ -1,3 +1,4 @@
+<div class="bio_footer">
 {% if site.data.social %}
     <table class="bio__social">
         <tr>
@@ -5,5 +6,6 @@
             <td><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></td>
          {% endfor %}
         </tr>
-    </ol>
+    </table>
   {% endif %}
+</div>

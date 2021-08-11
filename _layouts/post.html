@@ -27,13 +27,13 @@
         </div>
 
         {% if site.prev-next %}
-          <div class="post__paginate" style="margin-bottom: 50%;">
-            {% if page.previous.url %}
-              <a class="post__paginate-left" href="{{ site.url }}{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a>
+          <div class="post__paginate" style="margin-bottom: 10%;">
+            {% if page.next.url %}
+              <a class="post__paginate-left" href="{{ site.url }}{{ page.next.url | relative_url }}">{{ page.next.title }}</a>
             {% endif %}
 
-            {% if page.next.url %}
-              <a class="post__paginate-right" href="{{ site.url }}{{ page.next.url | relative_url }}">{{ page.next.title }}</a>
+            {% if page.previous.url %}
+              <a class="post__paginate-right" href="{{ site.url }}{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a>
             {% endif %}
           </div>
         {% endif %}

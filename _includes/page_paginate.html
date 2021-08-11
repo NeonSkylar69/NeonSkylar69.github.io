@@ -1,7 +1,7 @@
 {% if paginator.total_pages > 1 %}
-<div class="pagination">
-    <ul class="list-unstyled mb-0 w-100 row justify-content-center">
-        <li class="col-auto">
+<div class="pagination" style="margin-top: 50px;">
+    <ul style="list-style: none; padding: 0;" >
+        <li class="col-auto" >
             {% if paginator.previous_page %}
             <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; 上一页</a>
             {% else %}
