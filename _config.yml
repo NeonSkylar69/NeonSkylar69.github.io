@@ -2,7 +2,7 @@
 title: BeingArcade
 header:  Arcade Of Being
 desc: > 
- a lonesome Lib
+ An archieve recoding my whereabouts of being
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -11,7 +11,7 @@ post_date: TimeScale
 post_cat: Event
 
 prev-next: true
-favicon: "/assets/sample/ico.png"
+favicon: "/assets/icon.png"
 paginate: 15
 # Build settings
 theme: louie
