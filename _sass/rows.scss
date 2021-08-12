@@ -41,15 +41,16 @@
   float: left;
 }
 
+.row__date {
+  width: 35%;
+}
+
 .row__title {
-  width: 100%;
+  width: 45%;
 }
-
-.row__date,
-.row__cat {
-  width: auto;
+.row__cat{
+ width:5%
 }
-
 .row__cat {
   position: relative;
   margin-left: 10px;
