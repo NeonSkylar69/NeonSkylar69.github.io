@@ -14,10 +14,10 @@ category: Know
 
 
 
-&emsp;&emsp;主题的选择上，我fork了GH上的的一个主题——[louie](https://github.com/lilykonings/louie)，这个主题原本就是简易复古稍带点文艺的feel，但是要动刀的地方太多了（qs）于是我耗了两天在修改Layouts（布局）和ResponsiveDesign（响应式设计）（~~响应式真EZ~~）上，仅仅是只花了不到1h在设计自己的css上（呵呵），而且协调css和响应式也相当耗时，早知如此，我就自己从头到尾设计主题算了:sweat:。louie并不自带pagination和archieves需要自己动手开发，然而自己只整出了前者，后者当个Flag立了。开发过程收获最多的可能就是对盒子模型的进一步理解和收藏了一堆宝藏博主及网页(e.g. [Google Fonts](https://fonts.google.com/)  对于字体选择和导入过于友好)。IMO,前端设计的成就感比较容易获得，但要说学到什么知识点，倒也没什么新鲜的，可能更多的是经验我觉得。先立几个flag吧！    
+&emsp;&emsp;主题的选择上，我fork了GH上的的一个主题——[louie](https://github.com/lilykonings/louie)，这个主题原本就是简易复古稍带点文艺的feel，但是要动刀的地方太多了（qs）于是我耗了两天在修改Layouts（布局）和ResponsiveDesign（响应式设计）（~~响应式真EZ~~）上，仅仅是只花了不到1h在设计自己的css上（呵呵），而且协调css和响应式也相当耗时，早知如此，我就自己从头到尾设计主题算了:sweat:。louie并不自带pagination和archives需要自己动手开发，然而自己只整出了前者，后者当个Flag立了。开发过程收获最多的可能就是对盒子模型的进一步理解和收藏了一堆宝藏博主及网页(e.g. [Google Fonts](https://fonts.google.com/)  对于字体选择和导入过于友好)。IMO,前端设计的成就感比较容易获得，但要说学到什么知识点，倒也没什么新鲜的，可能更多的是经验我觉得。先立几个flag吧！    
 
 - [x] Pagination
-- [ ] Archieve
+- [ ] Archive
 - [ ] PicGallery
 - [ ] MusicPlay
 - [ ] DomainNamee
