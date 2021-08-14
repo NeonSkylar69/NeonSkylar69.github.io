@@ -1,0 +1,18 @@
+
+.cat_post_title,.cat_post_date{
+    display: block;
+    float: left;
+}
+.cat_post_title{
+    width: 50%;
+}
+.cat_post_date{
+    width: 50%;
+}
+.cat_title{
+    font-size: 30px;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+}

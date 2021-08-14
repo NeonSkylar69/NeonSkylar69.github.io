@@ -1,0 +1,21 @@
+<ul class="cat_list">
+{% for category in site.data.categories %}
+    <li class="cat_line">
+    <div class="cat_title">{{category.name}}</div>
+    {% for post in site.posts %}
+        {% if post.category==category.name %}
+                 <a href="{{ site.url }}{{ post.url | relative_url }}">
+                <div class="cat_post_title">{{ post.title }}</div>
+                <div class="cat_post_date">
+                    {% if site.date_format %}
+                        {{ post.date | date: site.date_format }}
+                     {% else %}
+                         {{ post.date | date: "%b %-d, %Y" }}
+                    {% endif %}
+                </div>
+                 </a>
+        {% endif %}
+    {% endfor %}
+    </li>
+{% endfor %}
+</ul>
