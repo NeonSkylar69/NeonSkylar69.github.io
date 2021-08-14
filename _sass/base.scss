@@ -5,7 +5,11 @@ $on-laptop:         800px !default;
 @import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap');
-$font_body:       'STIX Two Text','Noto Sans SC', sans-serif;
+@font-face {
+  font-family:chinese ;
+  src: url(/assets/NotoSansSC-Light.otf);
+}
+$font_body:       'STIX Two Text',chinese, sans-serif;
 $font_title: 'Dancing Script', cursive;
 $font__size:        16px;
 $font__weight:      500;
