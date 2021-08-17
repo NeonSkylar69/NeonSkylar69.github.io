@@ -9,7 +9,7 @@
   overflow: hidden;
 }
 
-$paginate-padding: 13px;
+$paginate-padding: 10px;
 .post__paginate-left,
 .post__paginate-right {
   position: relative;
@@ -17,16 +17,16 @@ $paginate-padding: 13px;
   width: 45%;
 }
 .post__paginate-middle{
-  width:10%;
-  
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 .post__paginate-home{
   position: relative;
   display: block;
-  width: 45%;
+  width: 50%;
   float: left;
   padding-left: $paginate-padding;
-  float: left;
 
   &:before {
     position: absolute;
@@ -104,3 +104,4 @@ $paginate-padding: 13px;
     margin:auto;
   }
 }
+

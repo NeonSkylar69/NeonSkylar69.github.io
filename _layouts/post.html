@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
   {% include head.html %}
   
   <body>
@@ -33,11 +33,14 @@
               {% else %}
               <a class="post__paginate-home" href="{{site.url}}">Arcade</a>
               {% endif %}
-              <a class="post__paginate-middle"href="/categorylist.html">Record</a>
+              
             {% if page.previous.url %}
               <a class="post__paginate-right" href="{{ site.url }}{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a>
               {% endif %}
-          </div>
+              <div class="post__paginate-middle">
+              <a href="/categorylist.html">Record</a>
+              </div>
+            </div>
         {% endif %}
       </div>
 
