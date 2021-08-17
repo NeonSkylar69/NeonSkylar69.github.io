@@ -7,7 +7,7 @@ $on-laptop:         800px !default;
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400&display=swap');
 $font_body:       'STIX Two Text','Noto Sans SC', sans-serif;
 $font_title: 'Dancing Script', cursive;
-$font__size:        18px;
+$font__size:        16px;
 $font__weight:      500;
 $font__line-height: 1.5;
 
@@ -80,7 +80,6 @@ body {
   padding: 0;
   background: $color__beige;
   font-family: $font_body;
-  font-size: $font__size;
   font-weight: $font__weight;
   line-height: $font__line-height;
 }
@@ -96,6 +95,7 @@ body {
   
   body {
     margin: 50px 0 25px;
+    font-size: 16px;
   }
 
   .container {
@@ -106,6 +106,7 @@ body {
 @include media-query($on-laptop) {
   body {
     margin: 30px 0 50px;
+    font-size: 18px;
   }
   .container {
     margin: 0 auto;
@@ -126,3 +127,4 @@ body {
     font-size: 50px;
   }
 }
+
