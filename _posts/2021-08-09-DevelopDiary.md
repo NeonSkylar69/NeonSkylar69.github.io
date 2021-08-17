@@ -41,9 +41,8 @@ category: Know
 - 2021.8.12 更新了网页icon![icon](/assets/icon.png) &emsp;这回画的像书了
 - 2021.8.12 补上post [《为何想建博客》](/life/2021/08/12/PurposOfBlogging.html)
 - 2021.8.14 更新Arichive功能-[record](/categorylist.html)
+- 2021.8.17 优化post的布局（原来自己一直在110%下布局:sweat:）
+- 2021.8.17 添加友链
 
 ---
 
-### 附加吐槽
-
-&emsp;&emsp;是我眼睛有问题还是GitHub页面问题,为什么检查元素显示margin两边是对称的，可是我眼睛看的却不是...
