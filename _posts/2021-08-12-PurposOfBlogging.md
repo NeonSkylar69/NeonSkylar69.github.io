@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "PurposeOfBlog"
+title: "Purpose Of Blogging"
 date: 2021-08-12 09:23
 category: Life
 ---
