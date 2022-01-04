@@ -14,7 +14,6 @@ prev-next: true
 favicon: "/assets/icon.png"
 paginate: 15
 # Build settings
-theme: louie
 plugins:
   - jekyll-feed
   - jekyll-paginate
