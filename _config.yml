@@ -20,6 +20,8 @@ plugins:
   - jekyll-paginate
   - jemoji
 
+
+
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
