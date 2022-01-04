@@ -43,3 +43,4 @@ category: Know
 - 2021.8.14 更新Arichive功能-[record](/categorylist.html)
 - 2021.8.17 优化post的布局（原来自己一直在110%下布局:sweat:）
 - 2021.8.17 添加友链
+- 2022.1.4 添加新的workflow 解决网页无法deploy的问题

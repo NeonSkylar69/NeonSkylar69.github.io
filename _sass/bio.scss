@@ -31,6 +31,17 @@
   height: 520px;
   }
 }
+.bio_pic{
+   //margin-top: 70px;
+   display: flex;
+   justify-content: space-around;
+   height: 80%;
+   width: 100%;
+   img{
+   width:  420px;
+   height: 520px;
+   }
+}
 
 @media screen and (max-width:600px) {
  #img2,#img3,#img4{
