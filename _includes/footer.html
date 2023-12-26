@@ -1,11 +1,15 @@
 <div class="bio_footer">
 {% if site.data.social %}
     <div class="bio__social" >
-         {% for item in site.data.social %}
+        <!-- 
+          {% for item in site.data.social %}
           <span><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></span>
           {% endfor %}
+          -->
           <span><a href=" /categorylist.html">Record</a></span>
-          <span><a href=" /about.html">Friends</a></span>
+          <span><a href="/about.html">About</a></span>
+          <span><a href=" /friends.html">Friends</a></span>
+          
     </div>
   {% endif %}
 </div>
