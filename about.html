@@ -20,7 +20,7 @@ layout: default
         display: none;
     }
     .about{
-        font-size: 30px;
+        font-size: 15px;
     }
     a{
         text-decoration: none;
@@ -30,12 +30,16 @@ layout: default
   <div class="container">
     <h1><a href="{{site.url}}">About</a></h1>
     <ul class="about">
+      <p>你好，友人，很高兴能在漫漫人生之旅中与你相识。</p>
+      <p>这个博客的名字叫做存在之廊，</p>
+      <p>简称AOB（Arcade Of Being)。</p>
+      <P>这里记录了我人生之旅上的故事，</P>
+      <P>非常高兴能同你分享。</P>
+        <hr>
+        <h2>社交：</h2>
         {% for item in site.data.social %}
-        <span><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></span>
+        <span><a href="{{ item.url }}" target="_blank">{{ item.title }}</a></span><br/>
         {% endfor %}
-        <hr>
-        <p>Building Now</p>
-        <p>施工中</p>
-        <hr>
+    
     </ul>
   </div>
